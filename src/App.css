@@ -1,6 +1,6 @@
 .Header {
   background-color: darkslategray;
-  height: 200px;
+  height: 100px;
   color: white;
   text-align: center;
   padding: 1%;
@@ -10,15 +10,23 @@
   float: right;
 }
 
+.CharacterContainer {
+  margin : 0 5%;
+}
+
 
 
 
 .CharacterBox {
   background-color:darkslategray;
   display: inline-block;
-  margin: 5%;
+  margin: 2% 5%;
   width: 150px;
   text-align: center;
+}
+
+.CharacterBox:hover {
+  background-color:lightslategray;
 }
 
 
