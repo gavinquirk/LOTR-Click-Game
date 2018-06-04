@@ -6,8 +6,6 @@ import characters from './characters.json'
 import CharacterCard from './components/CharacterCard'
 // import score from './components/'
 
-
-
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
@@ -15,15 +13,9 @@ class App extends Component {
     // score
   };
 
-  // removeFriend = id => {
-  //   // Filter this.state.friends for friends with an id not equal to the id being removed
-  //   const friends = this.state.friends.filter(friend => friend.id !== id);
-  //   // Set this.state.friends equal to the new friends array
-  //   this.setState({ friends });
-  // };
 
   handleCardClick = id => {
-    // console.log(this.state.)
+    alert(this.props.id)
     // Use Fisher–Yates shuffle algorithm on array
     for (let i = characters.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -32,7 +24,6 @@ class App extends Component {
     // Update state with new array
     this.setState({ characters });
   }
-
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
