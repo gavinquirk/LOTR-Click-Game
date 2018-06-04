@@ -1,24 +1,10 @@
 import React from "react";
 import "./CharacterCard.css";
 
-const FriendCard = props => (
+const CharacterCard = props => (
   <div className="card">
-    <div className="img-container">
-      <img alt={props.name} src={props.image} />
-    </div>
-    <div className="content">
-      <ul>
-        <li>
-          <strong>Name:</strong> {props.name}
-        </li>
-        {/* <li>
-          <strong>Occupation:</strong> {props.occupation}
-        </li>
-        <li>
-          <strong>Location:</strong> {props.location}
-        </li> */}
-      </ul>
-    </div>
+      {/* On Click, handle card click function from app.jsx */}
+      <img onClick={() => props.handleCardClick(props.id)} alt={props.name} src={props.image} />
   </div>
 );
 
