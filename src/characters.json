@@ -2,41 +2,49 @@
     {
         "id" : 1,
         "name" : "Aragorn",
-        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-553738.png"
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-553738.png",
+        "isClicked" : false
     },
     {
         "id" : 2,
         "name" : "Gimli",
-        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-086866.jpg"
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-086866.jpg",
+        "isClicked" : false
     },
     {
         "id" : 3,
         "name" : "Legolas",
-        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-969434.jpg"
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-969434.jpg",
+        "isClicked" : false
     },
     {
         "id" : 4,
         "name" : "Frodo",
-        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-873758.jpg"
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-873758.jpg",
+        "isClicked" : false
     },
     {
         "id" : 5,
         "name" : "Sam",
-        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-885201.jpg"
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-885201.jpg",
+        "isClicked" : false
     },
     {
         "id" : 6,
         "name" : "Mary",
-        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-945296.jpg"
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-945296.jpg",
+        "isClicked" : false
     },
     {
         "id" : 7,
         "name" : "Pippin",
-        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-705649.jpg"
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-705649.jpg",
+        "isClicked" : false
     },
     {
         "id" : 8,
         "name" : "Gandalf",
-        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-083836.jpg"
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-083836.jpg",
+        "isClicked" : false
     }
 ]

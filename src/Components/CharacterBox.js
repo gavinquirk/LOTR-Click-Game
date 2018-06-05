@@ -5,14 +5,14 @@ class CharacterBox extends Component {
 
   handleCharacterClick = event => {
     let clicked = this.props.character
-    console.log(clicked)
+    // console.log(clicked)
     if (clicked.clicked === false) {
       clicked.clicked = true
       // this.props.score ++
 
     } else if (clicked.clicked === true) {
       alert('already clicked')
-      // TODO: Handle already clicked, reset
+      // TODO: Handle already clicked, reset, top score comparison
     }
   }
   render() {

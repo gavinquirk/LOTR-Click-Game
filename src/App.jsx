@@ -10,17 +10,18 @@ class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     characters,
-    // score
+    score: 0
   };
 
 
   handleCardClick = id => {
-    alert(this.props.id)
-    // Use Fisher–Yates shuffle algorithm on array
+
+    // Shuffle the array
     for (let i = characters.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [characters[i], characters[j]] = [characters[j], characters[i]];
     }
+
     // Update state with new array
     this.setState({ characters });
   }
