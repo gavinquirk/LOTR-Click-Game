@@ -7,30 +7,43 @@ import CharacterCard from './components/CharacterCard'
 // import score from './components/'
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
   state = {
     characters,
-    score: 0
+    score: 10
   };
 
+  handleCardClick = (character) => {
+    console.log('character', character.isClicked)
+    console.log(characters)
+    console.log(this)
 
-  handleCardClick = id => {
 
-    // Shuffle the array
-    for (let i = characters.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [characters[i], characters[j]] = [characters[j], characters[i]];
+    // If clicked card has already been clicked
+    if (character.isClicked === true) {
+      console.log('is already clicked')
+      // handle end game
+    } else {
+      // TODO: increment score by 1
+      
+      // Set character cliked to true
+      // character.isClicked = true
+
+      this.state.characters[character.id].isClicked = true
+      console.log(this.state.characters[character.id]);
+      // Shuffle the array
+      for (let i = characters.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [characters[i], characters[j]] = [characters[j], characters[i]];
+      }
+      // Update state with new array
+      this.setState({ characters });
     }
-
-    // Update state with new array
-    this.setState({ characters });
   }
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
-        <Title>Lord of the Rings Memory Game</Title>
+        <Title score={this.state.score} />
         {this.state.characters.map(character => (
           <CharacterCard
             id={character.id}
@@ -38,6 +51,7 @@ class App extends Component {
             name={character.name}
             image={character.image}
             handleCardClick={this.handleCardClick}
+            isClicked={character.isClicked}
           />
         ))}
       </Wrapper>
