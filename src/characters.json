@@ -38,5 +38,75 @@
         "id" : 8,
         "name" : "Gandalf",
         "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-083836.jpg"
+    },
+    {
+        "id" : 9,
+        "name" : "Arwen",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-219061.jpg"
+    },
+    {
+        "id" : 10,
+        "name" : "Elrond",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-055577.gif"
+    },
+    {
+        "id" : 11,
+        "name" : "Boromir",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-116980.jpg"
+    },
+    {
+        "id" : 12,
+        "name" : "Saruman",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-965877.jpg"
+    },
+    {
+        "id" : 13,
+        "name" : "Faramir",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-392214.jpg"
+    },
+    {
+        "id" : 14,
+        "name" : "Eomer",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-316070.jpg"
+    },
+    {
+        "id" : 15,
+        "name" : "Eowyn",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-370410.jpg"
+    },
+    {
+        "id" : 16,
+        "name" : "Theoden",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-537866.gif"
+    },
+    {
+        "id" : 17,
+        "name" : "Sauron",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-049147.jpg"
+    },
+    {
+        "id" : 18,
+        "name" : "Gollum",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-522829.jpg"
+    },
+    {
+        "id" : 19,
+        "name" : "Galadriel",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-867201.jpg"
+    },
+    {
+        "id" : 20,
+        "name" : "Haldir",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-255582.jpg"
+    },
+    {
+        "id" : 21,
+        "name" : "Bilbo",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-402281.jpg"
+    },
+    {
+        "id" : 22,
+        "name" : "Smeagol",
+        "image" : "https://www.picgifs.com/avatars/film-series/lord-of-the-rings/avatars-lord-of-the-rings-466916.png"
     }
 ]

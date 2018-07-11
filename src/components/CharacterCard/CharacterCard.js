@@ -5,6 +5,8 @@ const CharacterCard = props => (
   <div className="card">
       {/* On Click, handle card click function from app.jsx */}
       <img onClick={() => props.handleCardClick(props.id)} alt={props.name} src={props.image} />
+      {/* <img onClick={() => props.scoreTest()} alt={props.name} src={props.image} /> */}
+
   </div>
 );
 

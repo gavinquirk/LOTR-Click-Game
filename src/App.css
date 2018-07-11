@@ -1,32 +1,32 @@
-.Header {
+body {
   background-color: darkslategray;
-  height: 100px;
   color: white;
-  text-align: center;
-  padding: 1%;
 }
 
-.ScoreCounter {
-  float: right;
+.main {
+  margin: 0;
 }
 
-.CharacterContainer {
-  margin : 0 5%;
-}
-
-
-
-
-.CharacterBox {
-  background-color:darkslategray;
-  display: inline-block;
-  margin: 2% 5%;
-  width: 150px;
+.main h3 {
   text-align: center;
 }
 
-.CharacterBox:hover {
-  background-color:lightslategray;
+.main p {
+  text-align: center;
+}
+
+.card-section {
+  padding-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  background-color: white;
+  margin: 5% 10%;
+  border-radius: 15px;
 }
 
 

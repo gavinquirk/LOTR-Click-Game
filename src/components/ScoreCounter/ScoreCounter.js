@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
-
-let score = 10
+import "./ScoreCounter.css"
 
 class ScoreCounter extends Component {
   render() {
     return (
         
         <div className='ScoreCounter'>
-            <span>Your Current Score is : {score}</span>
-
-
-
+            <h4>Your Current Score is: {this.props.currentScore}</h4>
+            <h4>Your Top Score is: {this.props.topScore}</h4>
         </div>
     );
   }
