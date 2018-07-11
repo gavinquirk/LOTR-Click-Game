@@ -1,5 +1,5 @@
-import React from "react";
-import "./Title.css";
+import React, { Component } from 'react';
+import "./Title.css"
 
 const Title = props => (
     <div className="title-section">
@@ -8,7 +8,8 @@ const Title = props => (
 
 )
 
+export default Title
 
 
 
-export default Title;
+
