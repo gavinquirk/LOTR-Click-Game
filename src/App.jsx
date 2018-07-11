@@ -8,7 +8,6 @@ import ScoreCounter from './components/ScoreCounter/ScoreCounter'
 class App extends Component {
   state = {
     characters,
-<<<<<<< HEAD
     currentScore: 0,
     topScore: 0,
     charactersChosen: []
@@ -90,54 +89,6 @@ class App extends Component {
           ))}
         </div>
       </div>
-=======
-    score: 10
-  };
-
-  handleCardClick = (character) => {
-    console.log('character', character.isClicked)
-    console.log(characters)
-    console.log(this)
-
-
-    // If clicked card has already been clicked
-    if (character.isClicked === true) {
-      console.log('is already clicked')
-      // handle end game
-    } else {
-      // TODO: increment score by 1
-      
-      // Set character cliked to true
-      // character.isClicked = true
-
-      this.state.characters[character.id].isClicked = true
-      console.log(this.state.characters[character.id]);
-      // Shuffle the array
-      for (let i = characters.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [characters[i], characters[j]] = [characters[j], characters[i]];
-      }
-      // Update state with new array
-      this.setState({ characters });
-    }
-  }
-
-  render() {
-    return (
-      <Wrapper>
-        <Title score={this.state.score} />
-        {this.state.characters.map(character => (
-          <CharacterCard
-            id={character.id}
-            key={character.id}
-            name={character.name}
-            image={character.image}
-            handleCardClick={this.handleCardClick}
-            isClicked={character.isClicked}
-          />
-        ))}
-      </Wrapper>
->>>>>>> c8d6c4ee52f7b89e0411cb4d4fba1d4c96de1371
     );
   }
 }
